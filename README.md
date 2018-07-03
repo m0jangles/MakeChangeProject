@@ -14,5 +14,6 @@ School.
 ### Technologies Used
 * Java
 * Java operators, specifically %
+* vi, a little
 
 ### Lessons Learned
