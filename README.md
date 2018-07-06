@@ -13,7 +13,7 @@ School.
 
 ### Technologies Used
 * Java
-* Java operators, specifically %
+* Java operators
 * vi, a little
 
 ### Lessons Learned
