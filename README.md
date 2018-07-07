@@ -26,12 +26,13 @@ School.
 ### Behind the Scenes
 *   There are 2 classes for the refactored version of the project: CashRegister and MakeChange
 *   CashRegister holds different methods to test calculations, perform the calculations of each transaction, and to then print the results.
-*   a new cash register object is created in the MakeChange class if the amount tendered is more than the price of the item 
-For example:
-*   the makeChange method does the calculation for the transaction
-*   the printChange method is for testing purposes to check that the result of makeChange is as expected
-*   the countDenominations method counts the amount of required denominations to dispense as change
-*  the printDenominations method uses the array from countDenominations to print the user's change accordingly
+*   a new cash register object is created in the MakeChange class if the amount tendered is more than the price of the item
+
+  For example:
+  *   the makeChange method does the calculation for the transaction
+  *   the printChange method is for testing purposes to check that the result of makeChange is as expected
+  *   the countDenominations method counts the amount of required denominations to dispense as change
+  *  the printDenominations method uses the array from countDenominations to print the user's change accordingly
 
 ### Lessons Learned
 First version of this program was a reflection of what I had retained and also what I understood about Java one week into the course.  It seemed kind of 1-dimensional, in that it could be read line-by-line in a single file.  
