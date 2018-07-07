@@ -30,9 +30,11 @@ public class CashRegister {
 		return (int) changeConverted;   
 
 	}
-
-	public void printChange() { // this method is for testing calling a method to print the calculation
-		int converted = makeChange(); // from the makeChange class
+	/* this method is for testing calling a method 
+	   from the makeChange method, this will print the result of the calculations in the makeChange method
+	*/
+	public void printChange() { 
+		int converted = makeChange(); 
 		System.out.println(converted);
 	}
 
