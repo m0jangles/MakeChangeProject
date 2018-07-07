@@ -16,4 +16,11 @@ School.
 * Java operators
 * vi, a little
 
+### How To
+1) User will be prompted for the price of an item
+2) User will input price
+3) User will be prompted for the amount tendered
+4) User will input amount tendered
+5) The program will print one of 3 messages: exact amount, more money needed, or amount of change in exact denominations
+
 ### Lessons Learned
