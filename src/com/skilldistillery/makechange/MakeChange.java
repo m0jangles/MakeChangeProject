@@ -25,14 +25,14 @@ public class MakeChange {
 		double coins = 0, change = 0;
 
 		if (amtTendered > price) {
-			change = amtTendered - price;
-			dollars = (int) (change);
-			coins = (amtTendered - dollars) - price;
-			coins = (coins * 100);
-			coins = (int) (coins + .5);
+			change = amtTendered - price; 				//formula to get the change
+			dollars = (int) (change);					//formula to cast dollars into int
+			coins = (amtTendered - dollars) - price;	//formula to get the amount of coins
+			coins = (coins * 100);						//formula to change coins to pennies
+			coins = (int) (coins + .5);					//formual to round to nearest penny
 
 		}
-
+		//loop to count amount of bills for each denomination
 		int hundred = 0, fifty = 0, twenty = 0, ten = 0, five = 0, one = 0;
 		while (dollars > 0) {
 			if (dollars >= 100) {
@@ -55,7 +55,7 @@ public class MakeChange {
 				dollars -= 1;
 			}
 		}
-
+		//loop to count amount of coins for each type of coin
 		int penny = 0, nickel = 0, dime = 0, quarter = 0;
 		while (coins > 0) {
 			if (coins >= 25) {
@@ -74,9 +74,9 @@ public class MakeChange {
 				break;
 			}
 		}
-
+		//statements to print singles or multiples of each type of bill or coin
 		String bills = " dollar bills";
-
+		
 		if (hundred == 1) {
 			System.out.println(hundred + "  hundred dollar bill");
 		} else if (hundred >= 1) {
