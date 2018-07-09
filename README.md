@@ -24,9 +24,9 @@ School.
 5) The program will print one of 3 messages: exact amount, more money needed, or amount of change in exact denominations
 
 ### Behind the Scenes
-*   There are 2 classes for the refactored version of the project: CashRegister and MakeChange
-*   CashRegister holds different methods to test calculations, perform the calculations of each transaction, and to then print the results.
-*   a new cash register object is created in the MakeChange class if the amount tendered is more than the price of the item
+*   There are 2 classes for the refactored version of the project: Transaction and MakeChange
+*   Transaction holds different methods to test calculations, perform the calculations of each transaction, and to then print the results.
+*   a new transaction object is created in the MakeChange class if the amount tendered is more than the price of the item
 
   For example:
   *   the makeChange method does the calculation for the transaction
@@ -37,6 +37,6 @@ School.
 ### Lessons Learned
 First version of this program was a reflection of what I had retained and also what I understood about Java one week into the course.  It seemed kind of 1-dimensional, in that it could be read line-by-line in a single file.  
 
-The second version brakes that single file down into methods which are placed in a separate class.  I can now use that class (CashRegister), to create a new cash register object.  I can use values such as price and amount tendered to compute the correct change.  
+The second version brakes that single file down into methods which are placed in a separate class.  I can now use that class (Transaction), to create a new transaction object.  I can use values such as price and amount tendered to compute the correct change.  
 
 By forcing myself to use several different methods and data types, I was able to fill the gaps in my understanding just a little bit more.  For example, I was REALLY having a hard time wrapping my head around objects and arrays.  I feel slightly more comfortable with each of them, now.  I am not fast yet, but I am persistent when I'm in the "zone".

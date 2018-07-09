@@ -1,6 +1,6 @@
 package com.skilldistillery.makechange;
 // THIS IS PART OF THE REFACTORED VERSION
-public class CashRegister {
+public class Transaction {
 
 	public int changeConverted;
 	double amtTendered = 0;
@@ -18,7 +18,8 @@ public class CashRegister {
 	int penny;
 	String bill = " dollar bill";
 	String bills = " dollar bills";
-
+	
+	
 	public int makeChange() {
 
 		change = amtTendered - price;       //formula to get the amount of change from the transaction
