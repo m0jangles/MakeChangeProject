@@ -108,7 +108,7 @@ public class Transaction {
 			}
 			//purposely left out conditions for more than one fifty, ten, and five dollar bill because there
 			//shouldn't be multiple of these bills if the program is working correctly
-			//example: 2 five dollar bills should have been dispense as 1 ten dollar bill
+			//example: 2 five dollar bills should have been dispensed as 1 ten dollar bill
 			if (i == 2) {
 				if (denominationsCount[i] == 1) {
 					System.out.println("1 twenty" + bill);
